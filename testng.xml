@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="OrangeHRM Automation Suite">
+
+    <test name="Login and Dashboard Tests">
+
+        <classes>
+
+            <class name="com.orangehrm.tests.LoginTest"/>
+
+            <class name="com.orangehrm.tests.DashboardTest"/>
+            
+            <class name="com.orangehrm.tests.NegativeLoginTest"/>
+            
+            <class name="com.orangehrm.tests.PIMTest"/>
+             
+			<class name="com.orangehrm.tests.PIMFileuploadTest"/>
+			
+			<class name="com.orangehrm.tests.DeleteEmployeeTest"/>
+            
+            <class name="com.orangehrm.tests.LeaveTest"/>
+			
+			<class name="com.orangehrm.tests.LogoutTest"/>
+        </classes>
+
+    </test>
+
+</suite>

@@ -1,0 +1,15 @@
+
+# Compiled files
+target/
+bin/
+
+# Test reports
+test-output/
+
+# Eclipse IDE files
+.classpath
+.project
+.settings/
+
+# macOS files
+.DS_Store
