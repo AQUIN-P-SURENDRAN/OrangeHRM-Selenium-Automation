@@ -11,7 +11,7 @@ public class PIMTest extends orangebase {
     public void openPIMTest()
     {
     	// Store employee details once
-        String empid = "8923";
+        String empid = "3245";
         
     	
         // Login
@@ -34,7 +34,7 @@ public class PIMTest extends orangebase {
         //adding employe details
         pim.uploadempimage(System.getProperty("user.dir") + "/fileupload/EMPimage.jpg");
        
-        pim.enterEmployeeName("Liky", "D", "Poti",empid);
+        pim.enterEmployeeName("Bjiorn", "D", "Poti",empid);
         pim.clickSave();
         
         //after adding employe verifitiong the personal detils page after successfuly adding the employe
@@ -52,7 +52,7 @@ public class PIMTest extends orangebase {
     public void searchEmpByName()
     {
     	
-    	String empname="Liky";
+    	String empname="Nasha";
     	
     	dashboard.clickPIM();
     	System.out.println("PIM opened successfully for name search");
@@ -60,6 +60,7 @@ public class PIMTest extends orangebase {
     	pim.openEmplist();
     	pim.searchByEmployeeName(empname);
     	Assert.assertTrue(pim.employeedRecordName(empname),"Employee Name in records" + empname + " was not found");
+    	Assert.fail("Testing failure screenshot capture");
    
     }
   

@@ -4,6 +4,12 @@
 
 <suite name="OrangeHRM Automation Suite">
 
+	<listeners>
+	
+    	<listener class-name="com.orangehrm.listeners.TestListener"/>
+    	
+	</listeners>
+
     <test name="Login and Dashboard Tests">
 
         <classes>
@@ -23,6 +29,7 @@
             <class name="com.orangehrm.tests.LeaveTest"/>
 			
 			<class name="com.orangehrm.tests.LogoutTest"/>
+			
         </classes>
 
     </test>

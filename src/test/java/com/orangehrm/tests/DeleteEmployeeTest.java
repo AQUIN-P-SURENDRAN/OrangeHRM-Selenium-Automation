@@ -10,7 +10,7 @@ public class DeleteEmployeeTest extends orangebase {
 	@Test
 	public void DeleteEmploye()
 	{
-		String empname="Liky";
+		String empname="Bjiorn";
 		//login();
 		
 		dashboard.clickPIM();

@@ -5,6 +5,8 @@ bin/
 
 # Test reports
 test-output/
+reports/
+screenshots/
 
 # Eclipse IDE files
 .classpath
