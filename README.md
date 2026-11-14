@@ -95,7 +95,7 @@ OrangeHRM-Selenium-Automation/
 ```
 
 **Note:** `reports/` and `screenshots/` are generated during test execution and are excluded from Git using `.gitignore`.
-->Future Improvements
+## Future Improvements
 These limitations are identified areas for improvement. They will be addressed in upcoming versions to improve test reliability, stability, and execution consistency.
 
 Note: The project is actively being improved, and future releases will include these enhancements.
