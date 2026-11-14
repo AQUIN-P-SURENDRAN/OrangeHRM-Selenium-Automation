@@ -46,9 +46,11 @@ Automation Framework
 - Test Data: Excel / CSV
 - Reporting: ExtentReports
 - Failure Handling: Automatic screenshot capture using TestNG Listeners
-
--> Project Structure
+  
+## 📁 Project Structure
 The project follows the Page Object Model (POM) design pattern to maintain a structured and reusable automation framework.
+
+```text
 OrangeHRM-Selenium-Automation/
 │
 ├── src/
@@ -90,10 +92,9 @@ OrangeHRM-Selenium-Automation/
 ├── pom.xml
 ├── testng.xml
 └── .gitignore
+```
 
-
-Note: `reports/` and `screenshots/` are generated during test execution and are excluded from Git using `.gitignore`.
-
+**Note:** `reports/` and `screenshots/` are generated during test execution and are excluded from Git using `.gitignore`.
 ->Future Improvements
 These limitations are identified areas for improvement. They will be addressed in upcoming versions to improve test reliability, stability, and execution consistency.
 
